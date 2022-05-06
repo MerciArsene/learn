@@ -6,7 +6,7 @@ dotenv.config()
 var app = express();
 
 app.get('/', (req, res) => {
-  res.status(200).send('<h1>Hello Welcome to Docker practice one </h1>');
+  res.status(200).send('<h1>Hello Welcome to Docker practice two </h1>');
 });
 
 module.exports = app
